@@ -47,7 +47,7 @@ app.use((req, res, next) => {
 
 // Home
 app.get('/', (req, res) => {
-  res.send('Hello From Version Three');
+  res.send('Hello From Version Four');
 });
 
 // Health check
